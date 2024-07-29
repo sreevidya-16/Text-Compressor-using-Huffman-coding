@@ -1,37 +1,69 @@
-# Text File Compressor and De-compressor
+<!-- Author : Samir Paul -->
+<div align="center">
+<h1> Text File Compressor De-compressor Web App</h1>
+</div>
 
-This web application leverages **Huffman Coding** for effective text compression and decompression.
 
-**Technologies Used:** JavaScript, HTML5, CSS3
+- This webapp uses Huffman Coding for Text Compression and De-compression.
+- Made with JavaScript, HTML5 and CSS3.
+- Live Demo:👇
+
+- [x] [samirpaulb.github.io/txt-compressor](https://samirpaulb.github.io/txt-compressor/)
+
+- [x] [txt-compressor.vercel.app](https://txt-compressor.vercel.app/)
 
 
-## About This Application
+## About this application:
 
-### Overview
+* This website performs Lossless data compression and decompression of text(.txt) files using Huffman Algorithm.
+* In this algorithm, a variable-length code is assigned to input different characters. The code length is related to how frequently characters are used. Most frequent characters have the smallest codes and longer codes for least frequent characters.
+* A Huffman code is a tree, built bottom up, starting with the list of different characters appearing in a text and their frequency. 
+* Compression ratio usually improves as the file size increases.
+* The website is made responsive (with HTML and CSS ) and interactive (with JavaScript ) .
+* An [Info page](https://samirpaulb.github.io/txt-compressor/info.html) is added to give more information about tecnique of **Lossless Data Compression** with Huffman coding.
 
-This web app facilitates **lossless data compression** and **decompression** of text files (.txt) using the **Huffman Coding Algorithm**. The core principle behind Huffman Coding is to use variable-length codes for different characters based on their frequency of occurrence in the text. Characters that appear more frequently are assigned shorter codes, while those that are less frequent get longer codes. This results in a more compact representation of the text data.
 
-### How Huffman Coding Works
 
-1. **Frequency Analysis:** The algorithm begins by analyzing the frequency of each character in the input text.
-2. **Building the Tree:** A binary tree is constructed, where each leaf node represents a character and its frequency. The tree is built from the bottom up, with more frequent characters closer to the root.
-3. **Assigning Codes:** Each character is assigned a binary code based on its position in the tree. Characters closer to the root receive shorter codes.
 
-### Key Features
+## Video
+https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-ae87-8b474b2a09e3.mp4
 
-- **Lossless Compression:** The app ensures that no data is lost during the compression process. The original text can be perfectly reconstructed from the compressed file.
-- **Responsive Design:** The application is designed to be responsive, providing a seamless user experience across various devices (desktops, tablets, and smartphones).
-- **Interactive Interface:** Built with JavaScript to provide a dynamic and user-friendly interface. Users can easily compress and decompress text files with just a few clicks.
-- **Educational Info Page:** An **Info Page** is included to offer more insights into the Huffman Coding technique and the principles of lossless data compression.
 
-### Benefits
 
-- **Efficiency:** Huffman Coding can achieve significant compression ratios, especially for larger files with many repeating characters.
-- **User-Friendly:** The web app’s intuitive design makes it accessible for users with varying levels of technical expertise.
+- [x] Landing Page:
 
-### Future Enhancements
+<a href="#"> ![screenshot](images/readme-images/landing-page.png) </a>
 
-- **Support for More File Formats:** Plans to extend support for other file types beyond .txt.
-- **Enhanced User Interface:** Ongoing improvements to the UI for an even more seamless user experience.
+- [x] Upload File
 
-Feel free to explore the live demo and see the Huffman Coding algorithm in action!
+<a href="#"> ![step1](images/readme-images/step1.png) </a>
+
+
+- [x] Select Action (Compress / De-compress)
+
+<a href="#"> ![step2](images/readme-images/step2.png) </a>
+
+
+- [x] Wait for File Download
+    * File gets downloaded automatically when selected process is complete.
+
+    * Compression - Compression Ratio is also displayed 
+
+    <a href="#"> ![compression](images/readme-images/step3.png) </a>
+    
+    * De-compression
+
+    <a href="#"> ![decompression](images/readme-images/decompression.png) </a>
+
+* Additional Instructions and Warnings are provided if the above steps are not followed correctly
+
+<a href="#"> ![noFile](images/readme-images/nofile.png) </a>
+
+<a href="#"> ![smallFile](images/readme-images/verysmallfile.png)  </a>
+
+
+
+* About the tecnique of Lossless Data Compression with Huffman coding.
+
+<a href="#"> ![info1](images/readme-images/info.jpeg) </a>
+
