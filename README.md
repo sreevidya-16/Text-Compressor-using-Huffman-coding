@@ -1,4 +1,4 @@
-# Text File Compressor and De-compressor Web App
+# Text File Compressor and De-compressor
 
 This web application leverages **Huffman Coding** for effective text compression and decompression.
 
